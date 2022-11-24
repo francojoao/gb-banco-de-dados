@@ -19,7 +19,7 @@ Acesse os links a seguir para você poder visualizar e/ou baixar os arquivos da 
 >
 > :speech\_balloon: <mark style="color:blue;">Date, 2003, p. 13</mark>
 
-## Instalação das Ferramentas
+## ⚙ Instalação das Ferramentas
 
 Para usar MySQL como Banco de Dados, é necessário fazer a instalção de um servidor e um ambiente de desenvolvimento das base de dados. 
 
@@ -28,17 +28,17 @@ Ferramenta | Link de Download
 Workbench | <a href="https://dev.mysql.com/downloads/workbench/" target="_blank">Clique Aqui</a>
 Xampp | <a href="https://www.apachefriends.org/pt_br/index.html" target="_blank">Clique Aqui</a>
 
-## Referências
-
-* DATE, C. J. **Introdução a sistemas de bancos de dados**. Rio de Janeiro: Elsevier, 2003.
-* ELMASRI, R.; NAVATHE, S. B. Sistemas de banco de dados. 6. ed. São Paulo: Pearson Addison Wesley, 2011.
-
-## Onde Estudar
+## 💪 Onde Estudar
 
 Segue abaixo dois lugares onde você pode estudar e aprofundar seus estudos em SQL:
 
 1. <a href="https://www.w3schools.com/sql/" target="_blank">W3Schools</a>
 2. <a href="https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk" target="_blank">Playlist - Otávio Miranda</a>
 
-## Tecnologias Utilizadas
+## 💡 Tecnologias Utilizadas
 ![icon](https://github.com/Maxsuel-Santos/Maxsuel-Santos/blob/main/_GitHub/img/sql-logo.svg)
+
+## 🏆 Referências
+
+* DATE, C. J. **Introdução a sistemas de bancos de dados**. Rio de Janeiro: Elsevier, 2003.
+* ELMASRI, R.; NAVATHE, S. B. Sistemas de banco de dados. 6. ed. São Paulo: Pearson Addison Wesley, 2011.
