@@ -19,6 +19,10 @@ Acesse os links a seguir para você poder visualizar e/ou baixar os arquivos da 
 >
 > :speech\_balloon: <mark style="color:blue;">Date, 2003, p. 13</mark>
 
+> ### <mark style="color:blue;">Para que serve um banco de dados?</mark>&#x20;
+>
+>
+
 # ⚙ Instalação das Ferramentas
 
 Para usar MySQL como Banco de Dados, é necessário fazer a instalção de um servidor e um ambiente de desenvolvimento das base de dados. 
