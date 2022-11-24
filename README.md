@@ -3,6 +3,7 @@
 A Monitoria é um projeto de extensão oferecido pelo Instituto Federal de Ciências e Teconologia da Bahia (IFBA) a fim de proporcionar aos bolsistas do projeto a dádiva do ensino. O projeto foi realizado sobre a conduta do docente ***João Silvestre dos Santos Franco***, tendo como monitores, ***Luara Gabrielli Guimarães Araújo*** e ***Maxsuel Aparecido Lima Santos***, tendo como foco a ação dos monitores da matéria de Banco de Dados com suas turmas. Para isso, foram desenvolvidas diversas atividades, desde atenmentos presenciais e remotos, a criação de materiais didáticos abordando os assuntos estudados.
 
 # 📕 Materiais da Monitoria
+
 Acesse os links a seguir para você poder visualizar e/ou baixar os arquivos da Monitoria de Banco de Dados de 2022 do 2º Ano de Informática Matutino e Vespertino - ou então entre direto pela pasta do projeto no repositório acima:
 * <a href="https://github.com/francojoao/BD/tree/main/Materiais%20da%20Monitoria/2%C2%BA%20Ano%20de%20Inform%C3%A1tica%20Matutino%202022%20-%20Maxsuel%20Santos" rel="author">2º Ano de Informática Matutino<a>
 
@@ -18,7 +19,8 @@ Acesse os links a seguir para você poder visualizar e/ou baixar os arquivos da 
 >
 > :speech\_balloon: <mark style="color:blue;">Date, 2003, p. 13</mark>
 
-## Instalação das Ferramentas 
+## Instalação das Ferramentas
+
 Para usar MySQL como Banco de Dados, é necessário fazer a instalção de um servidor e um ambiente de desenvolvimento das base de dados. 
 
 Ferramenta | Link de Download
@@ -30,6 +32,13 @@ Xampp | <a href="https://www.apachefriends.org/pt_br/index.html" target="_blank"
 
 * DATE, C. J. **Introdução a sistemas de bancos de dados**. Rio de Janeiro: Elsevier, 2003.
 * ELMASRI, R.; NAVATHE, S. B. Sistemas de banco de dados. 6. ed. São Paulo: Pearson Addison Wesley, 2011.
+
+## Onde Estudar
+
+Segue abaixo dois lugares onde você pode estudar e aprofundar seus estudos em SQL:
+
+1. <a href="https://www.w3schools.com/sql/" target="_blank">W3Schools</a>
+2. <a href="https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk" target="_blank">Playlist - Otávio Miranda</a>
 
 ## Tecnologias Utilizadas
 ![icon](https://github.com/Maxsuel-Santos/Maxsuel-Santos/blob/main/_GitHub/img/sql-logo.svg)
