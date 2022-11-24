@@ -30,3 +30,6 @@ A Monitoria é um projeto de extensão oferecido pelo Instituto Federal de Ciên
 
 * DATE, C. J. **Introdução a sistemas de bancos de dados**. Rio de Janeiro: Elsevier, 2003.
 * ELMASRI, R.; NAVATHE, S. B. Sistemas de banco de dados. 6. ed. São Paulo: Pearson Addison Wesley, 2011.
+
+## Tecnologias Utilizadas
+![icon](https://github.com/Maxsuel-Santos/Maxsuel-Santos/blob/main/_GitHub/img/sql-logo.svg)
