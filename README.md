@@ -4,8 +4,9 @@ A Monitoria é um projeto de extensão oferecido pelo Instituto Federal de Ciên
 
 # 📕 Materiais da Monitoria
 Acesse os links a seguir para você poder visualizar e/ou baixar os arquivos da Monitoria de Banco de Dados de 2022 do 2º Ano de Informática Matutino e Vespertino - ou então entre direto pela pasta do projeto no repositório acima:
-<a href="https://github.com/francojoao/BD/tree/main/Materiais%20da%20Monitoria/2%C2%BA%20Ano%20de%20Inform%C3%A1tica%20Matutino%202022%20-%20Maxsuel%20Santos" rel="author">2º Ano de Informática Matutino<a>
-<a href="https://github.com/francojoao/BD/tree/main/Materiais%20da%20Monitoria/2%C2%BA%20Ano%20de%20Inform%C3%A1tica%20Vespertino%202022%20-%20Luara%20Gabrielli" rel="author">2º Ano de Informática Vespertino<a>
+* <a href="https://github.com/francojoao/BD/tree/main/Materiais%20da%20Monitoria/2%C2%BA%20Ano%20de%20Inform%C3%A1tica%20Matutino%202022%20-%20Maxsuel%20Santos" rel="author">2º Ano de Informática Matutino<a>
+
+* <a href="https://github.com/francojoao/BD/tree/main/Materiais%20da%20Monitoria/2%C2%BA%20Ano%20de%20Inform%C3%A1tica%20Vespertino%202022%20-%20Luara%20Gabrielli" rel="author">2º Ano de Informática Vespertino<a>
 
 # 🚪 Introdução
 
