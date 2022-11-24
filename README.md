@@ -12,11 +12,7 @@ A Monitoria é um projeto de extensão oferecido pelo Instituto Federal de Ciên
 >
 > :speech\_balloon: <mark style="color:blue;">Date, 2003, p. 13</mark>
 
-<figure><img src="https://dicasdeprogramacao.com.br/images/o-que-e-um-banco-de-dados/destaque-600x315.png" alt=""><figcaption></figcaption></figure>
-
-###
-
-> ### O que é um DBMS?
+### O que é um DBMS?
 
 ## O que é uma relação?&#x20;
 
