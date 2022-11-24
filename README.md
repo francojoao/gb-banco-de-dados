@@ -37,8 +37,8 @@ Xampp | <a href="https://www.apachefriends.org/pt_br/index.html" target="_blank"
 
 Segue abaixo dois lugares onde você pode estudar e aprofundar seus estudos em SQL:
 
-1. <a href="https://www.w3schools.com/sql/" target="_blank">W3Schools</a>
-2. <a href="https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk" target="_blank">Playlist - Otávio Miranda</a>
+1. [W3Schools] (https://www.w3schools.com/sql/)
+2. [Playlist - Otávio Miranda] (https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk)
 
 ## Tecnologias Utilizadas
 ![icon](https://github.com/Maxsuel-Santos/Maxsuel-Santos/blob/main/_GitHub/img/sql-logo.svg)
