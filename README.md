@@ -18,15 +18,13 @@ Acesse os links a seguir para você poder visualizar e/ou baixar os arquivos da 
 >
 > :speech\_balloon: <mark style="color:blue;">Date, 2003, p. 13</mark>
 
-## O que é um DBMS?
+## Instalação das Ferramentas 
+Para usar MySQL como Banco de Dados, é necessário fazer a instalção de um servidor e um ambiente de desenvolvimento das base de dados. 
 
-## O que é uma relação?&#x20;
-
-## O que é um RDBMS?
-
-## O que é SQL?&#x20;
-
-## Componentes da SQL
+Ferramenta | Link de Download
+:---: | :---
+WorkBench | <a href="https://dev.mysql.com/downloads/workbench/" target="_blank">Clique Aqui</a>
+Xampp | <a href="https://www.apachefriends.org/pt_br/index.html" target="_blank">Clique Aqui</a>
 
 ## Referências
 
