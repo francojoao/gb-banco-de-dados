@@ -1,6 +1,6 @@
 # 💻 Monitoria
 
-A Monitoria é um projeto de extensão oferecido pelo Instituto Federal de Ciências e Teconologia da Bahia (IFBA) a fim de proporcionar aos bolsistas do projeto a dádiva do ensino. O projeto foi realizado sobre a conduta do docente ***João Silvestre dos Santos Franco***, tendo como monitores, ***Luara Gabrielli Guimarães Araújo*** e ***Maxsuel Aparecido Lima Santos***, tendo como foco a ação dos monitores da matéria de Banco de Dados com suas turmas. Para isso, foram desenvolvidas diversas atividades, desde atenmentos presenciais e remotos, a criação de materiais didáticos abordando os assuntos estudados.
+A Monitoria é um projeto de extensão oferecido pelo Instituto Federal de Ciências e Teconologia da Bahia (IFBA) a fim de proporcionar aos bolsistas do projeto a dádiva do ensino. O projeto foi realizado sobre a conduta do docente 🧒 ***João Silvestre dos Santos Franco***, tendo como monitores, 👩 ***Luara Gabrielli Guimarães Araújo*** e 🧑 ***Maxsuel Aparecido Lima Santos***, tendo como foco a ação dos monitores da matéria de Banco de Dados com suas turmas. Para isso, foram desenvolvidas diversas atividades, desde atenmentos presenciais e remotos, a criação de materiais didáticos abordando os assuntos estudados.
 
 # 📕 Materiais da Monitoria
 
