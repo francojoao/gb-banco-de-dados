@@ -1,0 +1,2 @@
+# 📤 Operadores & Funções
+
