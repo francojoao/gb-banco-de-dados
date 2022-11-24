@@ -23,7 +23,7 @@ Para usar MySQL como Banco de Dados, é necessário fazer a instalção de um se
 
 Ferramenta | Link de Download
 :---: | :---
-WorkBench | <a href="https://dev.mysql.com/downloads/workbench/" target="_blank">Clique Aqui</a>
+Workbench | <a href="https://dev.mysql.com/downloads/workbench/" target="_blank">Clique Aqui</a>
 Xampp | <a href="https://www.apachefriends.org/pt_br/index.html" target="_blank">Clique Aqui</a>
 
 ## Referências
