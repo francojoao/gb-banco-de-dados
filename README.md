@@ -25,7 +25,7 @@ Acesse os links a seguir para você poder visualizar e/ou baixar os arquivos da 
 
 # ⚙ Instalação das Ferramentas
 
-Para usar MySQL como Banco de Dados, é necessário fazer a instalção de um servidor e um ambiente de desenvolvimento das base de dados. 
+Para usar MySQL como Banco de Dados, é necessário fazer a instalação de um servidor e um ambiente de desenvolvimento das base de dados. 
 
 Ferramenta | Link de Download
 :---: | :---
@@ -34,10 +34,11 @@ Xampp | <a href="https://www.apachefriends.org/pt_br/index.html" target="_blank"
 
 # 💪 Onde Estudar
 
-Segue abaixo dois lugares onde você pode estudar e aprofundar seus estudos em SQL:
+Segue abaixo três lugares onde você pode estudar e aprofundar seus estudos em SQL:
 
 1. <a href="https://www.w3schools.com/sql/" target="_blank">W3Schools</a>
 2. <a href="https://www.youtube.com/playlist?list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk" target="_blank">Playlist - Otávio Miranda</a>
+3. <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r" target="_blank">Playlist - Curso em Vídeo</a>
 
 # 💡 Tecnologias Utilizadas
 ![icon](https://github.com/Maxsuel-Santos/Maxsuel-Santos/blob/main/_GitHub/img/sql-logo.svg)
