@@ -1,4 +1,4 @@
-# 👤 Entidades
+# ❌ DELETE
 
 ## Referências
 

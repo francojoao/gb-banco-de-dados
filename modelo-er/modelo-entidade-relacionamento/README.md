@@ -14,3 +14,7 @@
 ## Conceitos importantes
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Atributo simples</strong></td><td></td><td></td></tr><tr><td><strong>Atributo composto</strong></td><td></td><td></td></tr><tr><td><strong>Atributo armazenado</strong></td><td></td><td></td></tr><tr><td><strong>Atributo derivado</strong></td><td></td><td></td></tr><tr><td><strong>Atributo monovalorado</strong></td><td></td><td></td></tr><tr><td><strong>Atributo multivalorado</strong></td><td></td><td></td></tr><tr><td><strong>Atributo descritor</strong></td><td></td><td></td></tr><tr><td><strong>Atributo identificador</strong></td><td></td><td></td></tr></tbody></table>
+
+## Referências
+
+*

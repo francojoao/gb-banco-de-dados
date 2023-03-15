@@ -5,3 +5,9 @@
 ## LEFT JOIN
 
 ## RIGHT JOIN
+
+## CROSS JOIN
+
+## Referências
+
+*

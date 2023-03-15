@@ -1,0 +1,5 @@
+# 🧱 CREATE/DROP TABLE
+
+## Referências
+
+*
