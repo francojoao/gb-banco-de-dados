@@ -21,3 +21,11 @@
   * [📝 INSERT](sql/manipular-o-banco/insert.md)
   * [✏ UPDATE](sql/manipular-o-banco/update.md)
   * [❌ DELETE](sql/manipular-o-banco/delete.md)
+
+***
+
+* [🗃 STORED OBJECTS](stored-objects/README.md)
+  * [👁 Views](stored-objects/views.md)
+  * [📑 Procedures](stored-objects/procedures.md)
+  * [📋 Funcions](stored-objects/funcions.md)
+  * [🔫 Triggers](stored-objects/triggers.md)
