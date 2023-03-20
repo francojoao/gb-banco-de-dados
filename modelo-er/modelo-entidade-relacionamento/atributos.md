@@ -1,5 +1,59 @@
 # 💪 Atributos
 
+{% hint style="success" %}
+**Descrição do do mini-mundo**
+
+* **Estudantes** cursam disciplinas, que são lecionadas por um docente cada uma. Para cada estudante deve-se manter o nome, os telefones para contato e as informações de matrícula.&#x20;
+* Uma **disciplina** é cursada por vários estudantes e é lecionada por um docente. Das disciplinas, deseja-se saber código, número de créditos e descrição.
+* **Docentes** lecionam diversas disciplinas cada um e em cada disciplina possui diversos estudantes. De cada docente, deseja-se saber o nome, o código de matrícula, o e-mail institucional e o telefone.
+{% endhint %}
+
+## Step by step
+
+### Step 1. Identificar as entidades
+
+Como combinamos, neste primeiro passo, identificaremos as entidades apresentadas na descrição do mini-mundo. De imediato, é possível notar que estudantes, professores e disciplinas apresentam características próprias.
+
+<img src="../../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
+
+### Step 2. Identificar os atributos
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Estudante</strong></td><td><p>nome</p><p>telefones para contato</p><p>informações de matrícula</p></td><td></td></tr><tr><td><strong>Docente</strong></td><td><p>nome</p><p>código de matrícula</p><p>e-mail institucional</p><p>telefone</p></td><td></td></tr><tr><td><strong>Disciplina</strong></td><td><p>código</p><p>número de créditos descrição</p></td><td></td></tr></tbody></table>
+
+### Step 3. Identificar os relacionamentos
+
+Logo no início da descrição do mini-mundo, observa-se que existe uma associação entre as entidades **`Estudante`** e **`Docente`** com a entidade **`Disciplina`**.
+
+> **Estudantes** cursam disciplinas, que são lecionadas por um docente cada uma.
+
+<img src="../../.gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
+
+A partir dessa leitura, analisamos: existe associação entre **`Docente`** e **`Estudante`**? Se as disciplinas cursadas pelos discentes são lecionadas por professores, supõe-se que há alguma associação entre estas entidades. Vamos partir para a análise das cardinalidades dos relacionamentos e das restrições de participação antes de alterar o diagrama.
+
+### Step 4. Definir as cardinalidades dos relacionamentos
+
+Conforme a descrição do mini-mundo, "**Estudantes** cursam disciplinas" e "Uma **disciplina** é cursada por vários estudantes". Percebe-se que o estudante cursa, no mínimo, uma disciplina, e pode cursar mais de uma ao mesmo tempo; assim, a cardinalidade mínima é 1 e a cardinalidade máxima é N.
+
+{% hint style="warning" %}
+Não esqueça: marcamos as cardinalidades **do lado oposto** (sentido da seta em <mark style="color:blue;background-color:blue;">**azul**</mark> nas figuras abaixo).
+{% endhint %}
+
+<img src="../../.gitbook/assets/file.excalidraw (4).svg" alt="" class="gitbook-drawing">
+
+Nessa imagem abaixo, expressamos a associação entre disciplina e estudante: no mínimo, uma disciplina pode ser cursada por _nenhum_ estudante (cardinalidade mínima _0_) e, no máximo, _vários_ estudantes (cardinalidade máxima _N_).
+
+<img src="../../.gitbook/assets/file.excalidraw (5).svg" alt="" class="gitbook-drawing">
+
+Assim, as cardinalidades ficam conforme a figura a seguir:
+
+<img src="../../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+
+### Step 5. Refinar o modelo
+
+### Diagrama concluído
+
+<figure><img src="../../.gitbook/assets/Captura de tela de 2023-03-20 13.55.36.png" alt=""><figcaption></figcaption></figure>
+
 ## Classificação quanto ao valor&#x20;
 
 * <mark style="color:purple;background-color:purple;">**Atributo único/monovalorado/univalorado**</mark>**:** apresentam “um valor único para uma entidade em particular” (ELMASRI; NAVATHE, 2011, p. 135);
