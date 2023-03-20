@@ -14,11 +14,11 @@
 
 Como combinamos, neste primeiro passo, identificaremos as entidades apresentadas na descrição do mini-mundo. De imediato, é possível notar que estudantes, professores e disciplinas apresentam características próprias.
 
-<img src="../../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (6).svg" alt="" class="gitbook-drawing">
 
 ### Step 2. Identificar os atributos
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Estudante</strong></td><td><p>nome</p><p>telefones para contato</p><p>informações de matrícula</p></td><td></td></tr><tr><td><strong>Docente</strong></td><td><p>nome</p><p>código de matrícula</p><p>e-mail institucional</p><p>telefone</p></td><td></td></tr><tr><td><strong>Disciplina</strong></td><td><p>código</p><p>número de créditos descrição</p></td><td></td></tr></tbody></table>
+<img src="../../../.gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
 
 ### Step 3. Identificar os relacionamentos
 
@@ -26,7 +26,7 @@ Logo no início da descrição do mini-mundo, observa-se que existe uma associa�
 
 > **Estudantes** cursam disciplinas, que são lecionadas por um docente cada uma.
 
-<img src="../../.gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (3) (1).svg" alt="" class="gitbook-drawing">
 
 A partir dessa leitura, analisamos: existe associação entre **`Docente`** e **`Estudante`**? Se as disciplinas cursadas pelos discentes são lecionadas por professores, supõe-se que há alguma associação entre estas entidades. Vamos partir para a análise das cardinalidades dos relacionamentos e das restrições de participação antes de alterar o diagrama.
 
@@ -38,21 +38,35 @@ Conforme a descrição do mini-mundo, "**Estudantes** cursam disciplinas" e "Uma
 Não esqueça: marcamos as cardinalidades **do lado oposto** (sentido da seta em <mark style="color:blue;background-color:blue;">**azul**</mark> nas figuras abaixo).
 {% endhint %}
 
-<img src="../../.gitbook/assets/file.excalidraw (4).svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (4).svg" alt="" class="gitbook-drawing">
 
 Nessa imagem abaixo, expressamos a associação entre disciplina e estudante: no mínimo, uma disciplina pode ser cursada por _nenhum_ estudante (cardinalidade mínima _0_) e, no máximo, _vários_ estudantes (cardinalidade máxima _N_).
 
-<img src="../../.gitbook/assets/file.excalidraw (5).svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (5).svg" alt="" class="gitbook-drawing">
 
 Assim, as cardinalidades ficam conforme a figura a seguir:
 
-<img src="../../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
 
 ### Step 5. Refinar o modelo
 
+#### Classificando os atributos a partir dos valores possíveis
+
+A partir da descrição do mini-mundo, percebe-se que o atributo telefones, da entidade Estudante, é descrito no plural. Por conseguinte, entende-se que um estudante pode ter cadastrado vários telefones para contato - logo, pode apresentar diferentes valores. Este é um tipo particular de atributo, chamado de <mark style="color:purple;">**atributo multivalorado**</mark>.&#x20;
+
+Outros atributos, como o nome (valor único, uma pessoa só pode ter um nome) e a matrícula, são únicos, afinal, uma pessoa só pode ter um nome e a matrícula do estudante é um valor único e individual. Neste caso, temos exemplos de <mark style="color:purple;">**atributos monovalorados**</mark>.
+
+<img src="../../../.gitbook/assets/file.excalidraw.svg" alt="Na entidade Estudante, telefone e emails são exemplos de atributos multivalorados." class="gitbook-drawing">
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><mark style="color:purple;"><strong>Atributo monovalorado</strong></mark></td><td>atributos que, para uma ocorrência de entidade, só podem assumir um único valor (ELMASRI; NAVATHE, 2011).</td><td><p><strong>Exemplos:</strong></p><p><code>Docente</code>: nome, matricula</p><p><code>Disciplina</code>: descricao, codigo, creditos</p><p><code>Estudante</code>: nome, matricula</p></td></tr><tr><td><mark style="color:purple;"><strong>Atributo multivalorado</strong></mark></td><td><p>para uma ocorrência de entidade, podem assumir mais de um valor</p><p>(SILBERSCHATZ; KORTH; SUDARSHAN, 1999).</p></td><td><p><strong>Exemplos:</strong></p><p><code>Docente</code>: telefones</p><p><code>Estudante</code>: emails, telefones</p></td></tr></tbody></table>
+
+#### Classificação dos atributos a partir das subdivisões
+
 ### Diagrama concluído
 
-<figure><img src="../../.gitbook/assets/Captura de tela de 2023-03-20 13.55.36.png" alt=""><figcaption></figcaption></figure>
+<img src="../../../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
+
+<figure><img src="../../../.gitbook/assets/Captura de tela de 2023-03-20 13.55.36.png" alt=""><figcaption></figcaption></figure>
 
 ## Classificação quanto ao valor&#x20;
 
@@ -79,7 +93,7 @@ Se o atributo pode ser usado para apontar uma ocorrência de entidade específic
 * <mark style="color:orange;background-color:orange;">**Atributo armazenado/básico/não-derivado**</mark>**:** quando o dado pode ser armazenado diretamente e não é originário de nenhum tratamento computacional;&#x20;
 * <mark style="color:orange;background-color:orange;">**Atributo derivado**</mark>**:** ocorre quando o valor do atributo decorre de outro atributo ou entidade (SILBERSCHATZ; KORTH; SUDARSHAN, 1999, p. 24), sendo obtido a partir “de um processamento específico” (HENRIQUE NETO, 2015, p. 65);
 
-<figure><img src="../../.gitbook/assets/flowchart-fun.png" alt=""><figcaption><p>Representação de tipos de atributos apresentados por diferentes autores.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/flowchart-fun.png" alt=""><figcaption><p>Representação de tipos de atributos apresentados por diferentes autores.</p></figcaption></figure>
 
 ## Referências
 

@@ -6,8 +6,9 @@
 
 * [✈ Modelo Entidade-Relacionamento](modelo-er/modelo-entidade-relacionamento/README.md)
   * [👤 Entidades](modelo-er/modelo-entidade-relacionamento/entidades.md)
-  * [💪 Atributos](modelo-er/modelo-entidade-relacionamento/atributos.md)
   * [🫂 Relacionamentos](modelo-er/modelo-entidade-relacionamento/relacionamentos.md)
+  * [💪 Atributos](modelo-er/modelo-entidade-relacionamento/atributos/README.md)
+    * [🧠 Tipos de atributos](modelo-er/modelo-entidade-relacionamento/atributos/tipos-de-atributos.md)
 
 ## 👩💻 SQL
 
