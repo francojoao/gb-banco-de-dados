@@ -2,7 +2,7 @@
 
 ##
 
-<img src="../../../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
 ### Step 5. Refinar o modelo
 
@@ -12,7 +12,7 @@
 
 A partir da descrição do mini-mundo, percebe-se que o atributo telefones, da entidade Estudante, é descrito no plural. Por conseguinte, entende-se que um estudante pode ter cadastrado vários telefones para contato - logo, pode apresentar diferentes valores. Este é um tipo particular de atributo, chamado de <mark style="color:purple;background-color:purple;">**atributo multivalorado**</mark>.
 
-<img src="../../../.gitbook/assets/file.excalidraw.svg" alt="Na entidade Estudante, o telefone é um exemplo de atributo multivalorado." class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (8).svg" alt="Na entidade Estudante, o telefone é um exemplo de atributo multivalorado." class="gitbook-drawing">
 
 ### Diagrama concluído
 
