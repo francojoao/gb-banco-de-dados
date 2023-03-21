@@ -1,20 +1,47 @@
+---
+description: >-
+  Esta página descreve os principais elementos e as características do modelo
+  entidade-relacionamento (ER), técnica de modelagem conceitual de dados.
+---
+
 # ✈ Modelo Entidade-Relacionamento
 
+Imagine que precisamos desenvolver um sistema para informatização de uma escola de ensino médio. Neste sistema, sabe-se que são registrados os dados de estudantes matriculados, de professores que lecionam na instituição e das disciplinas. Um dos objetivos é digitalizar os diários de classe. Para atingir os objetivos do sistema, é necessário utilizar um [sistema de banco de dados](#user-content-fn-1)[^1], cuja descrição do mini-mundo[^2] é apresentada abaixo.
 
+{% hint style="success" %}
+#### **Descrição do mini-mundo Escola**
 
-> ### Descrição do mini-mundo Hospital
+* **Estudantes** cursam disciplinas, que são lecionadas por um docente cada uma. Para cada estudante deve-se manter o nome, a idade, os telefones para contato, o endereço completo, e as informações de matrícula.&#x20;
+* Uma **disciplina** é cursada por vários estudantes e é lecionada por um docente. Das disciplinas, deseja-se saber código, número de créditos e descrição.
+* **Docentes** lecionam diversas disciplinas cada um e em cada disciplina possui diversos estudantes. De cada docente, deseja-se saber o nome, o código de matrícula, o e-mail institucional e o telefone.
+{% endhint %}
+
+A modelagem é uma das etapas necessárias para a concepção do banco de dados de nossa aplicação; a técnica entidade-relacionamento é uma das mais populares para o projeto de banco de dados.&#x20;
+
+> A técnica _entidade-relacionamento_ (ER) para a modelagem de dados conceitual (...) foi apresentada inicialmente em 1976 por Peter Chen. O formato Chen do modelo ER emprega retângulos para especificar entidades, que de certa forma são semelhantes a registros. Ele também usa objetos em forma de losango para representar os vários tipos de relacionamentos, que são diferenciados por números ou letras colocadas nas linhas que conectam os losangos aos retângulos.
 >
-> * Um médico, de quem deseja-se saber CRM, nome e suas especialidades, trata de pacientes.&#x20;
-> * Um paciente, de quem é necessário armazenar o nome, endereço e idade, é tratado por vários médicos.
-> * Um paciente realiza vários tipos de exames, que possuem nome e descrição, e podem ser realizados por vários pacientes.&#x20;
-> * Quando um paciente realiza um exame, registra-se o número e a data em que foi realizado.
+> 💬 (TEOREY et al., 2013, p. 9)
 
-<figure><img src="../../.gitbook/assets/Captura de tela de 2023-03-13 17-54-59.png" alt=""><figcaption></figcaption></figure>
+## Caracterização do modelo entidade-relacionamento
 
-## Conceitos importantes
+As tarefas fundamentais da modelagem conceitual baseada na abordagem ER, segundo Teorey et al. (2013, p. 58), são:&#x20;
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Atributo simples</strong></td><td></td><td></td></tr><tr><td><strong>Atributo composto</strong></td><td></td><td></td></tr><tr><td><strong>Atributo armazenado</strong></td><td></td><td></td></tr><tr><td><strong>Atributo derivado</strong></td><td></td><td></td></tr><tr><td><strong>Atributo monovalorado</strong></td><td></td><td></td></tr><tr><td><strong>Atributo multivalorado</strong></td><td></td><td></td></tr><tr><td><strong>Atributo descritor</strong></td><td></td><td></td></tr><tr><td><strong>Atributo identificador</strong></td><td></td><td></td></tr></tbody></table>
+* a classificação das entidades e seus respectivos atributos;
+* a especificação dos relacionamentos;
+* e a determinação das hierarquias de generalização.
+
+## Elementos do modelo entidade-relacionamento
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Entidades</strong></td><td></td><td></td></tr><tr><td><strong>Relacionamentos</strong></td><td></td><td></td></tr><tr><td><strong>Atributos</strong></td><td></td><td></td></tr></tbody></table>
 
 ## Referências
 
-*
+* TEOREY, T. J. et al. **Projeto e Modelagem de Banco de Dados**: Tradução da 5ª Edição. \[S.l.]: Elsevier, 2013. v. 1.
+* SILBERSCHATZ, A.; KORTH, H. F.; SUDARSHAN, S. **Sistemas de Banco de Dados**. 3. ed. São Paulo: Pearson Makron Books, 1999.
+* HEUSER, C. A. **Projeto de banco de dados**: Volume 4 da Série Livros did́áticos informática UFRGS. \[S.l.]: Bookman Editora, 2009.
+* HENRIQUE NETO, G. **Modelagem de banco de dados**. Rio de Janeiro: Editora SESES, 2015.
+* ELMASRI, R.; NAVATHE, S. B. **Sistemas de banco de dados**. 6. ed. São Paulo: Pearson Addison Wesley, 2011.
+
+[^1]: 
+
+[^2]: 

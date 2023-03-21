@@ -9,6 +9,9 @@
   * [🫂 Relacionamentos](modelo-er/modelo-entidade-relacionamento/relacionamentos.md)
   * [💪 Atributos](modelo-er/modelo-entidade-relacionamento/atributos/README.md)
     * [🧠 Tipos de atributos](modelo-er/modelo-entidade-relacionamento/atributos/tipos-de-atributos.md)
+    * [🧠 Copy of Tipos de atributos](modelo-er/modelo-entidade-relacionamento/atributos/copy-of-tipos-de-atributos.md)
+* [😉 Estudos de Casos](modelo-er/estudos-de-casos/README.md)
+  * [🏫 Escola](modelo-er/estudos-de-casos/escola.md)
 
 ## 👩💻 SQL
 
