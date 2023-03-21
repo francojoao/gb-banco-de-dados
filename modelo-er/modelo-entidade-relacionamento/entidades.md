@@ -1,3 +1,7 @@
+---
+layout: landing
+---
+
 # 👤 Entidades
 
 As entidades são as representações mais essenciais de elementos do mundo real, dos quais são captadas informações (TEOREY et al., 2013, p. 15) com as mesmas particularidades, e apresentam sentidos próprios (MACHADO; ABREU, 2012, p. 58).&#x20;

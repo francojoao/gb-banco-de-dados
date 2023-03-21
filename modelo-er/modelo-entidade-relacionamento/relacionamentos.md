@@ -1,3 +1,7 @@
+---
+layout: landing
+---
+
 # 🫂 Relacionamentos
 
 Um relacionamento define as associações entre instâncias de entidades (p. 36) que o distinguem de outras instâncias de relacionamentos (HEUSER, 2009, p. 53); a existência de um relacionamento, portanto, é condicionada às entidades sobre as quais representa uma associação (TEOREY et al., 2013, p. 15).
@@ -20,7 +24,7 @@ Conforme a descrição do mini-mundo, "**Estudantes** cursam disciplinas" e "Uma
 Não esqueça: marcamos as cardinalidades **do lado oposto** (sentido da seta em <mark style="color:blue;background-color:blue;">**azul**</mark> nas figuras abaixo).
 {% endhint %}
 
-<img src="../../.gitbook/assets/file.excalidraw (4).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (4) (1).svg" alt="" class="gitbook-drawing">
 
 Nessa imagem abaixo, expressamos a associação entre disciplina e estudante: no mínimo, uma disciplina pode ser cursada por _nenhum_ estudante (cardinalidade mínima _0_) e, no máximo, _vários_ estudantes (cardinalidade máxima _N_).
 

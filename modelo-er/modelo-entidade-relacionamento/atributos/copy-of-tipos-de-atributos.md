@@ -1,8 +1,12 @@
+---
+layout: landing
+---
+
 # 🧠 Copy of Tipos de atributos
 
 ##
 
-<img src="../../../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
 
 * <mark style="color:purple;background-color:purple;">**Atributo único/monovalorado/univalorado**</mark>**:** apresentam “um valor único para uma entidade em particular” (ELMASRI; NAVATHE, 2011, p. 135);
 * <mark style="color:purple;background-color:purple;">**Atributo multivalorado**</mark>**:** quando há vários valores para um mesmo atributo de uma mesma instância de entidade (SILBERSCHATZ; KORTH; SUDARSHAN, 1999, p. 23).

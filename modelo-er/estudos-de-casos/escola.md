@@ -54,7 +54,7 @@ Conforme a descrição do mini-mundo, "**Estudantes** cursam disciplinas" e "Uma
 Não esqueça: marcamos as cardinalidades **do lado oposto** (sentido da seta em <mark style="color:blue;background-color:blue;">**azul**</mark> nas figuras abaixo).
 {% endhint %}
 
-<img src="../../.gitbook/assets/file.excalidraw (4).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (4) (1).svg" alt="" class="gitbook-drawing">
 
 Nessa imagem abaixo, expressamos a associação entre disciplina e estudante: no mínimo, uma disciplina pode ser cursada por _nenhum_ estudante (cardinalidade mínima _0_) e, no máximo, _vários_ estudantes (cardinalidade máxima _N_).
 
@@ -78,7 +78,7 @@ Outros atributos, como o nome (valor único, uma pessoa só pode ter um nome) e 
 
 #### Classificação dos atributos a partir das subdivisões
 
-<img src="../../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (2) (2).svg" alt="" class="gitbook-drawing">
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><mark style="color:green;"><strong>Atributo simples/atômico</strong></mark></td><td>não podem ser repartidos, isto é, encerram-se em si próprios</td><td></td></tr><tr><td><mark style="color:green;"><strong>Atributo composto</strong></mark></td><td>formados por partes que correspondem a fragmentos menores sobre o mesmo elemento (HENRIQUE NETO, 2015, p. 64)</td><td></td></tr></tbody></table>
 
@@ -90,7 +90,7 @@ Outros atributos, como o nome (valor único, uma pessoa só pode ter um nome) e 
 
 ### Diagrama concluído
 
-<img src="../../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
 
 ## Referências
 
