@@ -2,7 +2,7 @@
 description: >-
   Esta página descreve os principais elementos e as características do modelo
   entidade-relacionamento (ER), técnica de modelagem conceitual de dados.
-layout: editorial
+layout: landing
 ---
 
 # ✈ Modelo Entidade-Relacionamento
