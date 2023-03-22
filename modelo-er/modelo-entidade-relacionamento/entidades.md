@@ -1,4 +1,7 @@
 ---
+cover: >-
+  https://images.unsplash.com/photo-1580582932707-520aed937b7b?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwyfHxzY2hvb2x8ZW58MHx8fHwxNjc5NDMyMzQ5&ixlib=rb-4.0.3&q=80
+coverY: 0
 layout: landing
 ---
 
