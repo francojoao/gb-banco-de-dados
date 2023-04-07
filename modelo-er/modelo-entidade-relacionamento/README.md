@@ -16,7 +16,7 @@ Imagine que precisamos desenvolver um sistema para informatização de uma escol
 #### **Descrição do mini-mundo Escola**
 
 * **Estudantes** cursam disciplinas, que são lecionadas por um docente cada uma. Para cada estudante deve-se manter o nome, a idade, os telefones para contato, o endereço completo, e as informações de matrícula.&#x20;
-* Uma **disciplina** é cursada por vários estudantes e é lecionada por um docente. Das disciplinas, deseja-se saber código, número de créditos e descrição.
+* Uma **disciplina** é cursada por vários estudantes e é lecionada por um docente. Das disciplinas, deseja-se saber o nome, a descrição, o código e a carga horária.
 * **Docentes** lecionam diversas disciplinas cada um e em cada disciplina possui diversos estudantes. De cada docente, deseja-se saber o nome, o código de matrícula, o e-mail institucional e o telefone.
 {% endhint %}
 

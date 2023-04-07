@@ -28,11 +28,11 @@ Não esqueça: marcamos as cardinalidades **do lado oposto** (sentido da seta em
 
 Nessa imagem abaixo, expressamos a associação entre disciplina e estudante: no mínimo, uma disciplina pode ser cursada por _nenhum_ estudante (cardinalidade mínima _0_) e, no máximo, _vários_ estudantes (cardinalidade máxima _N_).
 
-<img src="../../.gitbook/assets/file.excalidraw (5).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (5) (1).svg" alt="" class="gitbook-drawing">
 
 Assim, as cardinalidades ficam conforme a figura a seguir:
 
-<img src="../../.gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (3) (2).svg" alt="" class="gitbook-drawing">
 
 ## Referências
 

@@ -10,7 +10,7 @@ layout: editorial
 **Descrição do do mini-mundo**
 
 * **Estudantes** cursam disciplinas, que são lecionadas por um docente cada uma. Para cada estudante deve-se manter o nome, a idade, os telefones para contato, o endereço completo (incluindo logradouro, número, bairro e CEP), e as informações de matrícula.&#x20;
-* Uma **disciplina** é cursada por vários estudantes e é lecionada por um docente. Das disciplinas, deseja-se saber código, número de créditos e descrição.
+* Uma **disciplina** é cursada por vários estudantes e é lecionada por um docente. Das disciplinas, deseja-se sabero nome, a descrição, o código e a carga horária.
 * **Docentes** lecionam diversas disciplinas cada um e em cada disciplina possui diversos estudantes. De cada docente, deseja-se saber o nome, o código de matrícula, o e-mail institucional e o telefone.
 {% endhint %}
 
@@ -24,11 +24,11 @@ No caso da entidade `Estudante`, por exemplo, observamos que todo estudante tem:
 Quando necessário, para evitar que a leitura do diagrama ER seja prejudicada, os atributos são omitidos e adota-se uma representação textual separada do diagrama (HEUSER, 2009, p. 48).
 {% endhint %}
 
-Os diferentes autores apresentam algumas classificações para os atributos, de acordo com critérios específicos, cuja compreensão é necessária para a elaboração do diagrama ER e, na maioria dos casos, na transposição para o modelo relacional. Esses tipos de atributos são abordados na página [Atributos](../modelo-entidade-relacionamento/atributos/).
+Os diferentes autores apresentam algumas classificações para os atributos, de acordo com critérios específicos, cuja compreensão é necessária para a elaboração do diagrama ER e, na maioria dos casos, na transposição para o modelo relacional. Esses tipos de atributos são abordados na página [Atributos](../../modelo-er/modelo-entidade-relacionamento/atributos/).
 
 ##
 
-## Step by step
+## Modelagem conceitual step by step
 
 ### Step 1. Identificar as entidades
 
@@ -38,7 +38,7 @@ Como combinamos, neste primeiro passo, identificaremos as entidades apresentadas
 
 ### Step 2. Identificar os atributos
 
-<img src="../../.gitbook/assets/file.excalidraw (4).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (4) (2).svg" alt="" class="gitbook-drawing">
 
 ### Step 3. Identificar os relacionamentos
 
@@ -62,7 +62,7 @@ Não esqueça: marcamos as cardinalidades **do lado oposto** (sentido da seta em
 
 Nessa imagem abaixo, expressamos a associação entre disciplina e estudante: no mínimo, uma disciplina pode ser cursada por _nenhum_ estudante (cardinalidade mínima _0_) e, no máximo, _vários_ estudantes (cardinalidade máxima _N_).
 
-<img src="../../.gitbook/assets/file.excalidraw (5).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (5) (1).svg" alt="" class="gitbook-drawing">
 
 Assim, as cardinalidades ficam conforme a figura a seguir:
 
@@ -78,7 +78,7 @@ Outros atributos, como o nome (valor único, uma pessoa só pode ter um nome) e 
 
 <img src="../../.gitbook/assets/file.excalidraw (8).svg" alt="Na entidade Estudante, telefone e emails são exemplos de atributos multivalorados." class="gitbook-drawing">
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><mark style="color:purple;"><strong>Atributo monovalorado</strong></mark></td><td>atributos que, para uma ocorrência de entidade, só podem assumir um único valor (ELMASRI; NAVATHE, 2011).</td><td><p><strong></strong></p><p><strong>Exemplos:</strong></p><p><code>Docente</code>: nome, matricula</p><p><code>Disciplina</code>: descricao, codigo, creditos</p><p><code>Estudante</code>: nome, matricula</p></td></tr><tr><td><mark style="color:purple;"><strong>Atributo multivalorado</strong></mark></td><td><p>para uma ocorrência de entidade, podem assumir mais de um valor</p><p>(SILBERSCHATZ; KORTH; SUDARSHAN, 1999).</p></td><td><p><strong>Exemplos:</strong></p><p><code>Docente</code>: telefones</p><p><code>Estudante</code>: emails, telefones</p></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><mark style="color:purple;"><strong>Atributo monovalorado</strong></mark></td><td>atributos que, para uma ocorrência de entidade, só podem assumir um único valor (ELMASRI; NAVATHE, 2011).</td><td><p></p><p><strong>Exemplos:</strong></p><p><code>Docente</code>: nome, matricula</p><p><code>Disciplina</code>: descricao, codigo, creditos</p><p><code>Estudante</code>: nome, matricula</p></td></tr><tr><td><mark style="color:purple;"><strong>Atributo multivalorado</strong></mark></td><td><p>para uma ocorrência de entidade, podem assumir mais de um valor</p><p>(SILBERSCHATZ; KORTH; SUDARSHAN, 1999).</p></td><td><p><strong>Exemplos:</strong></p><p><code>Docente</code>: telefones</p><p><code>Estudante</code>: emails, telefones</p></td></tr></tbody></table>
 
 #### Classificação dos atributos a partir das subdivisões
 
@@ -88,7 +88,7 @@ Outros atributos, como o nome (valor único, uma pessoa só pode ter um nome) e 
 
 #### Classificações quanto ao armazenamento
 
-<img src="../../.gitbook/assets/file.excalidraw (3) (2).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (3) (2) (1).svg" alt="" class="gitbook-drawing">
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><mark style="color:orange;"><strong>Atributo armazenado</strong></mark></td><td>o dado pode ser armazenado diretamente e não é originário de nenhum tratamento computacional; </td><td><p><strong>Exemplo:</strong></p><p><code>Estudante</code>: data de nascimento</p></td></tr><tr><td><mark style="color:orange;"><strong>Atributo derivado</strong></mark></td><td>decorre de outro atributo ou entidade (SILBERSCHATZ; KORTH; SUDARSHAN, 1999, p. 24), sendo obtido a partir “de um processamento específico” (HENRIQUE NETO, 2015, p. 65)</td><td><p><strong>Exemplo:</strong></p><p><code>Estudante</code>: idade</p></td></tr></tbody></table>
 

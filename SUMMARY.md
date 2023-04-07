@@ -9,8 +9,16 @@
   * [🫂 Relacionamentos](modelo-er/modelo-entidade-relacionamento/relacionamentos.md)
   * [💪 Atributos](modelo-er/modelo-entidade-relacionamento/atributos/README.md)
     * [🧠 Tipos de atributos](modelo-er/modelo-entidade-relacionamento/atributos/tipos-de-atributos.md)
-* [😉 Estudos de Casos](modelo-er/estudos-de-casos/README.md)
-  * [🏫 Escola](modelo-er/estudos-de-casos/escola.md)
+
+***
+
+* [😉 Estudos de Casos](estudos-de-casos/README.md)
+  * [🧮 Tipos de Dados no MySQL](estudos-de-casos/tipos-de-dados-no-mysql/README.md)
+    * [🔢 Tipos numéricos](estudos-de-casos/tipos-de-dados-no-mysql/tipos-numericos.md)
+    * [🔠 Tipos textuais](estudos-de-casos/tipos-de-dados-no-mysql/tipos-textuais.md)
+    * [📆 Tipos de data e hora](estudos-de-casos/tipos-de-dados-no-mysql/tipos-de-data-e-hora.md)
+  * [🏫 Escola](estudos-de-casos/escola/README.md)
+    * [♻ Conversão do MER para MR](estudos-de-casos/escola/conversao-do-mer-para-mr.md)
 
 ## 👩💻 SQL
 

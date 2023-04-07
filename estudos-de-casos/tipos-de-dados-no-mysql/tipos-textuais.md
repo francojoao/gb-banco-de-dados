@@ -1,0 +1,2 @@
+# 🔠 Tipos textuais
+
