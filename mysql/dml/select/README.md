@@ -1,5 +1,0 @@
-# 🔎 SELECT
-
-## Referências
-
-*

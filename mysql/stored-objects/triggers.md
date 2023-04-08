@@ -1,5 +1,0 @@
-# 🔫 Triggers
-
-## Referências
-
-*

@@ -1,2 +1,0 @@
-# 👷♀ Estruturar o banco
-

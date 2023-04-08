@@ -1,5 +1,0 @@
-# 📋 Funcions
-
-## Referências
-
-*

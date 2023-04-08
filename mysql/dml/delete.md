@@ -1,5 +1,0 @@
-# ❌ DELETE
-
-## Referências
-
-*

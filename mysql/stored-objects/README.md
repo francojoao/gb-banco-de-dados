@@ -1,2 +1,0 @@
-# 🗃 STORED OBJECTS
-
