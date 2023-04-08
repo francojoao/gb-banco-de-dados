@@ -2,9 +2,6 @@
 description: >-
   Esta página descreve os principais elementos e as características do modelo
   entidade-relacionamento (ER), técnica de modelagem conceitual de dados.
-cover: >-
-  https://images.unsplash.com/photo-1544383835-bda2bc66a55d?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHwxfHxkYXRhYmFzZXxlbnwwfHx8fDE2Nzk0OTQ5NDM&ixlib=rb-4.0.3&q=80
-coverY: 0
 layout: landing
 ---
 
@@ -36,9 +33,7 @@ As tarefas fundamentais da modelagem conceitual baseada na abordagem ER, segundo
 
 ## Elementos do modelo entidade-relacionamento
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Entidades</strong></td><td>Representações de elementos concretos ou abstratos do "mundo real"</td><td></td></tr><tr><td><strong>Relacionamentos</strong></td><td>Associações entre duas ou mais entidades representadas.</td><td></td></tr><tr><td><strong>Atributos</strong></td><td>Propriedades/ características de uma entidade/relacionamento</td><td></td></tr></tbody></table>
-
-
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Entidades</strong></td><td></td><td></td></tr><tr><td><strong>Relacionamentos</strong></td><td></td><td></td></tr><tr><td><strong>Atributos</strong></td><td></td><td></td></tr></tbody></table>
 
 ## Referências
 

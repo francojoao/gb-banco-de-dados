@@ -38,7 +38,7 @@ Como combinamos, neste primeiro passo, identificaremos as entidades apresentadas
 
 ### Step 2. Identificar os atributos
 
-<img src="../../.gitbook/assets/file.excalidraw (4).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (7).svg" alt="" class="gitbook-drawing">
 
 ### Step 3. Identificar os relacionamentos
 
@@ -66,7 +66,7 @@ Nessa imagem abaixo, expressamos a associação entre disciplina e estudante: no
 
 Assim, as cardinalidades ficam conforme a figura a seguir:
 
-<img src="../../.gitbook/assets/file.excalidraw (1) (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
 
 ### Step 5. Refinar o modelo
 
