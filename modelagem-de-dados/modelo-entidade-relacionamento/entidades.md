@@ -6,7 +6,7 @@ layout: landing
 
 As entidades são as representações mais essenciais de elementos do mundo real, dos quais são captadas informações (TEOREY et al., 2013, p. 15) com as mesmas particularidades, e apresentam sentidos próprios (MACHADO; ABREU, 2012, p. 58).&#x20;
 
-<img src="../../.gitbook/assets/file.excalidraw (12).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (13).svg" alt="" class="gitbook-drawing">
 
 A "ocorrência específica de uma entidade" é denominada "ocorrência" ou "instância" de entidade (TEOREY et al., 2013, p. 15).&#x20;
 

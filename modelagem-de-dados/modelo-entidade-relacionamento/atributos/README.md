@@ -32,7 +32,7 @@ Os diferentes autores apresentam algumas classificações para os atributos, de 
 
 ## Step 4. Identificar os atributos
 
-<img src="../../../.gitbook/assets/file.excalidraw (16).svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (31).svg" alt="" class="gitbook-drawing">
 
 É possível, ainda, classificar os atributos de acordo com diversos critérios. Diferentes autores apresentam alguns tipos de atributos, cuja compreensão é relevante no processo de conversão da modelagem conceitual ER para o modelo lógico relacional.&#x20;
 
@@ -42,7 +42,7 @@ Uma primeira classificação é decorrente da função que exerce aquele atribut
 
 * <mark style="color:yellow;background-color:yellow;">**Atributo chave**</mark>: também referido como atributo identificador/restrição de exclusividade, um atributo chave é usado para diferenciar entidades de forma específica (ELMASRI; NAVATHE, 2011, p. 137); estabelece relações e distingue as múltiplas linhas/tuplas de uma tabela/relação (HEUSER, 2009, p. 122);&#x20;
 
-<img src="../../../.gitbook/assets/file.excalidraw (34).svg" alt="Inseridos os atributos chaves de cada entidade." class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (35).svg" alt="Inseridos os atributos chaves de cada entidade." class="gitbook-drawing">
 
 * <mark style="color:yellow;background-color:yellow;">**Atributo descritor**</mark>**:** quando o atributo _apenas_ ~~(como se fosse pouca coisa)~~ descreve alguma característica da entidade a que pertence. Caso dos demais atributos das três entidades, definidos previamente.
 

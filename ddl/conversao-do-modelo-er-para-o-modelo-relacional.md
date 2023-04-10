@@ -16,7 +16,7 @@ No diagrama ER que representa as entidades no banco de dados aqui abordado, temo
 
 Os atributos das entidades, respectivamente, são convertidos em colunas das tabelas. Note que, nas representações das tabelas, as figuras têm uma espécie de losango pintado em <mark style="background-color:blue;">azul claro</mark>. Isso quer dizer que essas colunas **não podem receber valores nulos** — isto é, tem a propriedade **NN** (<mark style="color:blue;">`NOT NULL`</mark>). Quando as colunas podem receber valores nulos (<mark style="color:blue;">`NULL`</mark>), essa figura fica em branco.
 
-<img src="../.gitbook/assets/file.excalidraw (26).svg" alt="Descrição da declaração de uma tabela usando a representação do MySQL Workbench." class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw (29).svg" alt="Descrição da declaração de uma tabela usando a representação do MySQL Workbench." class="gitbook-drawing">
 
 Inicialmente, mantivemos os tipos padrões definidos no Workbench. Entretanto, precisaremos aplicar os tipos de dados adequados para cada atributo/coluna mapeado, conforme vimos anteriormente. Sabemos que existe um tipo mais adequado que o <mark style="color:blue;">`VARCHAR`</mark> para representar uma data armazenada no banco, certo?
 
@@ -37,13 +37,13 @@ Pelas regras de conversão do MER para o modelo relacional, atributos compostos 
 * Converter o atributo [`telefones`](#user-content-fn-1)[^1] em uma tabela do banco de dados, cujas colunas podem ser representadas pelo `ddd` e o `numero` do telefone.
 * Converter o atributo [`endereco`](#user-content-fn-2)[^2] em uma tabela contendo as colunas: `logradouro`, `numero`, `complemento`, `bairro` e `cep`.
 
-<img src="../.gitbook/assets/file.excalidraw (31).svg" alt="" class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw (5).svg" alt="" class="gitbook-drawing">
 
 ## Step 2. Mapear os relacionamentos
 
 Ao modelar o banco de dados, definimos que o relacionamento entre um docente e uma disciplina é uma associação representada pelo diário de classe — uma turma virtual, com data de início e conclusão da disciplina.&#x20;
 
-<img src="../.gitbook/assets/file.excalidraw (35).svg" alt="" class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw (24).svg" alt="" class="gitbook-drawing">
 
 Sabe-se também que os estudantes cursam várias disciplinas e estas, por sua vez, são lecionadas pelos docentes. É daí que vem a associação entre docente e disciplina — formando uma **entidade associativa**.&#x20;
 
