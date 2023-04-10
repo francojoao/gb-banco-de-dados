@@ -1,2 +1,0 @@
-# 😉 Estudos de Casos
-
