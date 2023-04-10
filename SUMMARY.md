@@ -1,35 +1,52 @@
 # Table of contents
 
-* [🚪 README](README.md)
+* [📜 README](README.md)
+* [🎯 TABLE OF CONTENTS](table-of-contents.md)
 
-## 🗃 Modelo Entidade-Relacionamento <a href="#modelo-er" id="modelo-er"></a>
+## 🚪 INTRO
 
-* [✈ Modelo Entidade-Relacionamento](modelo-er/modelo-entidade-relacionamento/README.md)
-  * [👤 Entidades](modelo-er/modelo-entidade-relacionamento/entidades.md)
-  * [🫂 Relacionamentos](modelo-er/modelo-entidade-relacionamento/relacionamentos.md)
-  * [💪 Atributos](modelo-er/modelo-entidade-relacionamento/atributos/README.md)
-    * [🧠 Tipos de atributos](modelo-er/modelo-entidade-relacionamento/atributos/tipos-de-atributos.md)
-    * [🧠 Copy of Tipos de atributos](modelo-er/modelo-entidade-relacionamento/atributos/copy-of-tipos-de-atributos.md)
-* [😉 Estudos de Casos](modelo-er/estudos-de-casos/README.md)
-  * [🏫 Escola](modelo-er/estudos-de-casos/escola.md)
+* [🎲 Banco de Dados: Conceitos e Definições](intro/banco-de-dados-conceitos-e-definicoes.md)
+* [🗣 Análise de Requisitos](intro/analise-de-requisitos.md)
 
-## 👩💻 SQL
+## 🗃 Modelagem de Dados
 
-* [👷♀ Estruturar o banco](sql/estruturar-o-banco/README.md)
-  * [🧱 CREATE/DROP TABLE](sql/estruturar-o-banco/create-drop-table.md)
-  * [🪚 ALTER TABLE](sql/estruturar-o-banco/alter-table.md)
-* [🧑🏭 Manipular o banco](sql/manipular-o-banco/README.md)
-  * [🔎 SELECT](sql/manipular-o-banco/select/README.md)
-    * [📈 Funções de agregação](sql/manipular-o-banco/select/funcoes-de-agregacao.md)
-    * [😁 Junções de tabelas](sql/manipular-o-banco/select/juncoes-de-tabelas.md)
-  * [📝 INSERT](sql/manipular-o-banco/insert.md)
-  * [✏ UPDATE](sql/manipular-o-banco/update.md)
-  * [❌ DELETE](sql/manipular-o-banco/delete.md)
+* [✈ Modelo Entidade-Relacionamento](modelagem-de-dados/modelo-entidade-relacionamento/README.md)
+  * [👤 Entidades](modelagem-de-dados/modelo-entidade-relacionamento/entidades.md)
+  * [🫂 Relacionamentos](modelagem-de-dados/modelo-entidade-relacionamento/relacionamentos.md)
+  * [💪 Atributos](modelagem-de-dados/modelo-entidade-relacionamento/atributos/README.md)
+    * [🧠 Tipos de atributos](modelagem-de-dados/modelo-entidade-relacionamento/atributos/tipos-de-atributos.md)
+* [🏫 Escola: modelo conceitual](modelagem-de-dados/escola-modelo-conceitual/README.md)
+  * [♻ Conversão do MER para MR](modelagem-de-dados/escola-modelo-conceitual/conversao-do-mer-para-mr.md)
+
+## 🚧 DDL
+
+* [🧮 Tipos de Dados no MySQL](ddl/tipos-de-dados-no-mysql/README.md)
+  * [🔢 Tipos numéricos](ddl/tipos-de-dados-no-mysql/tipos-numericos.md)
+  * [🔠 Tipos textuais](ddl/tipos-de-dados-no-mysql/tipos-textuais.md)
+  * [📆 Tipos de data e hora](ddl/tipos-de-dados-no-mysql/tipos-de-data-e-hora.md)
+* [♻ Conversão do modelo ER para o modelo relacional](ddl/conversao-do-modelo-er-para-o-modelo-relacional.md)
+* [🧱 Criar a estrutura do banco de dados](ddl/criar-a-estrutura-do-banco-de-dados.md)
+* [🪚 Alterar tabelas](ddl/alterar-tabelas.md)
+
+## 👩💻 DML
+
+* [🔎 SELECT](dml/select/README.md)
+  * [📈 Funções de agregação](dml/select/funcoes-de-agregacao.md)
+  * [😁 Junções de tabelas](dml/select/juncoes-de-tabelas.md)
+* [📝 INSERT](dml/insert.md)
+* [✏ UPDATE](dml/update.md)
+* [❌ DELETE](dml/delete.md)
+
+## 👩💻 STORED OBJECTS
+
+* [🗃 STORED OBJECTS](stored-objects/stored-objects/README.md)
+  * [👁 Views](stored-objects/stored-objects/views.md)
+  * [📑 Procedures](stored-objects/stored-objects/procedures.md)
+  * [📋 Funcions](stored-objects/stored-objects/funcions.md)
+  * [🔫 Triggers](stored-objects/stored-objects/triggers.md)
 
 ***
 
-* [🗃 STORED OBJECTS](stored-objects/README.md)
-  * [👁 Views](stored-objects/views.md)
-  * [📑 Procedures](stored-objects/procedures.md)
-  * [📋 Funcions](stored-objects/funcions.md)
-  * [🔫 Triggers](stored-objects/triggers.md)
+* [🧑🏭 Manipular o banco](manipular-o-banco/README.md)
+  * [👷♀ Estruturar o banco](manipular-o-banco/estruturar-o-banco.md)
+* [🏨 Hotel](hotel.md)
