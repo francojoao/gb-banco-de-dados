@@ -44,9 +44,3 @@
   * [📑 Procedures](stored-objects/stored-objects/procedures.md)
   * [📋 Funcions](stored-objects/stored-objects/funcions.md)
   * [🔫 Triggers](stored-objects/stored-objects/triggers.md)
-
-***
-
-* [🧑🏭 Manipular o banco](manipular-o-banco/README.md)
-  * [👷♀ Estruturar o banco](manipular-o-banco/estruturar-o-banco.md)
-* [🏨 Hotel](hotel.md)

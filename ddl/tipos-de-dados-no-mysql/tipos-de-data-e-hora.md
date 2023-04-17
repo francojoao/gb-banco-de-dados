@@ -18,7 +18,7 @@ A documentação do MySQL indica que existe um conjunto de valores válidos para
 | <mark style="color:blue;">`DATETIME`</mark>  | 'YYYY-MM-DD hh:mm:ss' | <p>'1000-01-01 00:00:00' a </p><p>'9999-12-31 23:59:59'</p>        |
 | <mark style="color:blue;">`TIMESTAMP`</mark> | 'YYYY-MM-DD hh:mm:ss' | <p>'1970-01-01 00:00:01' UTC a</p><p>'2038-01-09 03:14:07' UTC</p> |
 
-<img src="../../.gitbook/assets/file.excalidraw (9).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (11).svg" alt="" class="gitbook-drawing">
 
 ## Inicialização e atualização de data e hora
 

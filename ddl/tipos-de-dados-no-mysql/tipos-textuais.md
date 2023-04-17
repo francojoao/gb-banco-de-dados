@@ -26,7 +26,7 @@ Certamente, em algum momento você vai se questionar quando usar o tipo <mark st
 
 Isso quer dizer que uma coluna com tipo <mark style="color:blue;">`CHAR`</mark>, mesmo que a string tenha um tamanho menor que o tamanho máximo especificado na criação da coluna, sempre ocupará o tamanho máximo definido. Já numa coluna com o tipo <mark style="color:blue;">`VARCHAR`</mark>, o tamanho consumido será adaptado pelo banco a partir do valor atribuído à coluna.
 
-<img src="../../.gitbook/assets/file.excalidraw (22).svg" alt="Exemplo considerando uma coluna com conjunto de caracteres de byte único, como latin1" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (10).svg" alt="Exemplo considerando uma coluna com conjunto de caracteres de byte único, como latin1" class="gitbook-drawing">
 
 [Segundo a documentação,](https://dev.mysql.com/doc/refman/8.0/en/char.html) as colunas do tipo <mark style="color:blue;">`VARCHAR`</mark> incluem um prefixo de 1 byte – para valores ≤ 255 bytes – ou 2 bytes – para valores > 255 bytes –, que define o número de bytes do valor da coluna, além dos dados.
 

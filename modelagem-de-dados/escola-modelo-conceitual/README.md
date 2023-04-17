@@ -33,11 +33,11 @@ Os diferentes autores apresentam algumas classificações para os atributos, de 
 
 Como combinamos, neste primeiro passo, identificaremos as entidades apresentadas na descrição do mini-mundo. De imediato, é possível notar que estudantes, professores e disciplinas apresentam características próprias.
 
-<img src="../../.gitbook/assets/file.excalidraw (30).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (7).svg" alt="" class="gitbook-drawing">
 
 ### Step 2. Identificar os atributos
 
-<img src="../../.gitbook/assets/file.excalidraw (31).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (16).svg" alt="" class="gitbook-drawing">
 
 ### Step 3. Identificar os relacionamentos
 
@@ -45,7 +45,7 @@ Logo no início da descrição do mini-mundo, observa-se que existe uma associa�
 
 > **Estudantes** cursam disciplinas, que são lecionadas por um docente cada uma.
 
-<img src="../../.gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (25).svg" alt="" class="gitbook-drawing">
 
 A partir dessa leitura, analisamos: existe associação entre **`Docente`** e **`Estudante`**? Se as disciplinas cursadas pelos discentes são lecionadas por professores, supõe-se que há alguma associação entre estas entidades. Vamos partir para a análise das cardinalidades dos relacionamentos e das restrições de participação antes de alterar o diagrama.
 
@@ -57,15 +57,15 @@ Conforme a descrição do mini-mundo, "**Estudantes** cursam disciplinas" e "Uma
 Não esqueça: marcamos as cardinalidades **do lado oposto** (sentido da seta em <mark style="color:blue;background-color:blue;">**azul**</mark> nas figuras abaixo).
 {% endhint %}
 
-<img src="../../.gitbook/assets/file.excalidraw (21).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (17).svg" alt="" class="gitbook-drawing">
 
 Nessa imagem abaixo, expressamos a associação entre disciplina e estudante: no mínimo, uma disciplina pode ser cursada por _nenhum_ estudante (cardinalidade mínima _0_) e, no máximo, _vários_ estudantes (cardinalidade máxima _N_).
 
-<img src="../../.gitbook/assets/file.excalidraw (20).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (15).svg" alt="" class="gitbook-drawing">
 
 Assim, as cardinalidades ficam conforme a figura a seguir:
 
-<img src="../../.gitbook/assets/file.excalidraw (8).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (36).svg" alt="" class="gitbook-drawing">
 
 ### Step 5. Refinar o modelo
 
@@ -75,7 +75,7 @@ A partir da descrição do mini-mundo, percebe-se que o atributo telefones, da e
 
 Outros atributos, como o nome (valor único, uma pessoa só pode ter um nome) e a matrícula, são únicos, afinal, uma pessoa só pode ter um nome e a matrícula do estudante é um valor único e individual. Neste caso, temos exemplos de <mark style="color:purple;">**atributos monovalorados**</mark>.
 
-<img src="../../.gitbook/assets/file.excalidraw (25).svg" alt="Na entidade Estudante, telefone e emails são exemplos de atributos multivalorados." class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (24).svg" alt="Na entidade Estudante, telefone e emails são exemplos de atributos multivalorados." class="gitbook-drawing">
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><mark style="color:purple;"><strong>Atributo monovalorado</strong></mark></td><td>atributos que, para uma ocorrência de entidade, só podem assumir um único valor (ELMASRI; NAVATHE, 2011).</td><td><p></p><p><strong>Exemplos:</strong></p><p><code>Docente</code>: nome, matricula</p><p><code>Disciplina</code>: descricao, codigo, creditos</p><p><code>Estudante</code>: nome, matricula</p></td></tr><tr><td><mark style="color:purple;"><strong>Atributo multivalorado</strong></mark></td><td><p>para uma ocorrência de entidade, podem assumir mais de um valor</p><p>(SILBERSCHATZ; KORTH; SUDARSHAN, 1999).</p></td><td><p><strong>Exemplos:</strong></p><p><code>Docente</code>: telefones</p><p><code>Estudante</code>: emails, telefones</p></td></tr></tbody></table>
 
@@ -87,13 +87,13 @@ Outros atributos, como o nome (valor único, uma pessoa só pode ter um nome) e 
 
 #### Classificações quanto ao armazenamento
 
-<img src="../../.gitbook/assets/file.excalidraw (4).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (29).svg" alt="" class="gitbook-drawing">
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><mark style="color:orange;"><strong>Atributo armazenado</strong></mark></td><td>o dado pode ser armazenado diretamente e não é originário de nenhum tratamento computacional; </td><td><p><strong>Exemplo:</strong></p><p><code>Estudante</code>: data de nascimento</p></td></tr><tr><td><mark style="color:orange;"><strong>Atributo derivado</strong></mark></td><td>decorre de outro atributo ou entidade (SILBERSCHATZ; KORTH; SUDARSHAN, 1999, p. 24), sendo obtido a partir “de um processamento específico” (HENRIQUE NETO, 2015, p. 65)</td><td><p><strong>Exemplo:</strong></p><p><code>Estudante</code>: idade</p></td></tr></tbody></table>
 
 ### Diagrama concluído
 
-<img src="../../.gitbook/assets/file.excalidraw (32).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (9).svg" alt="" class="gitbook-drawing">
 
 ## Referências
 

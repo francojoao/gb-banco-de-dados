@@ -8,7 +8,7 @@ layout: landing
 
 # 🧠 Tipos de atributos
 
-<img src="../../../.gitbook/assets/file.excalidraw (17).svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (28).svg" alt="" class="gitbook-drawing">
 
 
 
@@ -16,7 +16,7 @@ layout: landing
 
 A partir da descrição do mini-mundo, percebe-se que o atributo telefones, da entidade Estudante, é descrito no plural. Por conseguinte, entende-se que um estudante pode ter cadastrado vários telefones para contato - logo, pode apresentar diferentes valores. Este é um tipo particular de atributo, chamado de <mark style="color:purple;">**atributo multivalorado**</mark>.&#x20;
 
-<img src="../../../.gitbook/assets/file.excalidraw (23).svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (13).svg" alt="" class="gitbook-drawing">
 
 Outros atributos, como o nome (valor único, uma pessoa só pode ter um nome) e a matrícula, são únicos, afinal, uma pessoa só pode ter um nome e a matrícula do estudante é um valor único e individual. Neste caso, temos exemplos de <mark style="color:purple;">**atributos monovalorados**</mark>.
 
@@ -34,7 +34,7 @@ O valor de um atributo composto é “a concatenação dos valores de seus compo
 
 Atributos compostos são indicados em situações em que é possível fazer referência “ao atributo como um todo em determinadas ocasiões e somente a parte dele em outras” (SILBERSCHATZ; KORTH; SUDARSHAN, 1999, p. 23).
 
-<img src="../../../.gitbook/assets/file.excalidraw (15).svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (27).svg" alt="" class="gitbook-drawing">
 
 Além disso, o atributo composto pode compor uma escala hierárquica, onde as partes que o compõem são semanticamente autônomas (ELMASRI; NAVATHE, 2011, p. 135), isto é, têm sentido próprio por si próprias.  Um exemplo disso é o próprio atributo endereço, da entidade `Estudante`: ora é possível fazer referência ao endereço como um todo, ora pode ser necessário saber apenas o bairro ou CEP.&#x20;
 
@@ -42,7 +42,7 @@ Além disso, o atributo composto pode compor uma escala hierárquica, onde as pa
 
 ## Classificação dos atributos quanto ao armazenamento
 
-<img src="../../../.gitbook/assets/file.excalidraw (19).svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (23).svg" alt="" class="gitbook-drawing">
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><mark style="color:orange;"><strong>Atributo armazenado</strong></mark></td><td>o dado pode ser armazenado diretamente e não é originário de nenhum tratamento computacional; </td><td><p></p><p></p><p><strong>Exemplo:</strong></p><p><code>Estudante</code>: data de nascimento</p></td></tr><tr><td><mark style="color:orange;"><strong>Atributo derivado</strong></mark></td><td>decorre de outro atributo ou entidade (SILBERSCHATZ; KORTH; SUDARSHAN, 1999, p. 24), sendo obtido a partir “de um processamento específico” (HENRIQUE NETO, 2015, p. 65)</td><td><p><strong>Exemplo:</strong></p><p><code>Estudante</code>: idade</p></td></tr></tbody></table>
 
@@ -50,7 +50,7 @@ Além disso, o atributo composto pode compor uma escala hierárquica, onde as pa
 
 ## Diagrama finalizado (so far...)
 
-<img src="../../../.gitbook/assets/file.excalidraw (10).svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (5).svg" alt="" class="gitbook-drawing">
 
 
 
