@@ -8,7 +8,7 @@
 * [🎲 Banco de Dados: Conceitos e Definições](intro/banco-de-dados-conceitos-e-definicoes.md)
 * [🗣 Análise de Requisitos](intro/analise-de-requisitos.md)
 
-## 🗃 Modelagem de Dados
+## 🗃 MODELAGEM DE DADOS
 
 * [✈ Modelo Entidade-Relacionamento](modelagem-de-dados/modelo-entidade-relacionamento/README.md)
   * [👤 Entidades](modelagem-de-dados/modelo-entidade-relacionamento/entidades.md)
@@ -28,12 +28,12 @@
 * [🧱 Criar a estrutura do banco de dados](ddl/criar-a-estrutura-do-banco-de-dados.md)
 * [🪚 Alterar tabelas](ddl/alterar-tabelas.md)
 
-## 👩💻 DML
+## 📑 DML
 
+* [📝 INSERT](dml/insert.md)
 * [🔎 SELECT](dml/select/README.md)
   * [📈 Funções de agregação](dml/select/funcoes-de-agregacao.md)
   * [😁 Junções de tabelas](dml/select/juncoes-de-tabelas.md)
-* [📝 INSERT](dml/insert.md)
 * [✏ UPDATE](dml/update.md)
 * [❌ DELETE](dml/delete.md)
 
