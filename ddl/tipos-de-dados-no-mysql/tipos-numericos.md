@@ -34,7 +34,7 @@ Recomendo a leitura/participação no tópico.
 
 A propriedade numérica <mark style="color:blue;">`ZEROFILL`</mark>, no MySQL, preenche uma coluna com zeros à esquerda do número cujo dado do tipo inteiro tem um tamanho <mark style="color:blue;">`N`</mark> especificado -- <mark style="color:blue;">`INT(N)`</mark> --, seguindo a palavra reservada <mark style="color:blue;">`INT`</mark>.&#x20;
 
-<img src="../../.gitbook/assets/file.excalidraw (4).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (4) (1).svg" alt="" class="gitbook-drawing">
 
 {% hint style="warning" %}
 <mark style="color:orange;">**Nota:**</mark>

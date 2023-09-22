@@ -14,27 +14,55 @@ Podemos utilizar o `ALTER TABLE` para adicionar ou excluir uma coluna de uma tab
 
 
 
-```sql
-ALTER TABLE nome_da_tabela
-DROP COLUMN nome_da_coluna;
-```
+<img src="../.gitbook/assets/file.excalidraw.svg" alt="" class="gitbook-drawing">
 
-<pre class="language-sql"><code class="lang-sql"><strong>ALTER TABLE Estudante
-</strong>ADD COLUMN 
+<pre class="language-sql" data-title="Exemplo"><code class="lang-sql"><strong>ALTER TABLE Estudante
+</strong>ADD COLUMN sobrenome VARCHAR(50) NOT NULL;
 </code></pre>
 
 ### DROP COLUMN
 
+
+
+<img src="../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
+
+{% code title="ALTER TABLE/DROP COLUMN" %}
 ```sql
 ALTER TABLE Estudante
-DROP COLUMN 
+DROP COLUMN sobrenome;
 ```
+{% endcode %}
 
 ##
 
-## Renomar, redefinir e reordenar colunas
+## Renomear uma tabela (ALTER TABLE/RENAME TO)
+
+<img src="../.gitbook/assets/file.excalidraw (2).svg" alt="" class="gitbook-drawing">
+
+{% code title="ALTER TABLE/RENAME TO" %}
+```sql
+ALTER TABLE Estudante
+RENAME TO Aluno;
+```
+{% endcode %}
 
 ##
+
+## Renomear, redefinir e reordenar colunas
+
+
+
+### CHANGE
+
+<img src="../.gitbook/assets/file.excalidraw (3).svg" alt="" class="gitbook-drawing">
+
+
+
+### MODIFY
+
+<img src="../.gitbook/assets/file.excalidraw (4).svg" alt="" class="gitbook-drawing">
+
+
 
 ## Chaves
 

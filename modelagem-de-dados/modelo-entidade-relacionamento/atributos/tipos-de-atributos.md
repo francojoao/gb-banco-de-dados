@@ -34,7 +34,7 @@ O valor de um atributo composto é “a concatenação dos valores de seus compo
 
 Atributos compostos são indicados em situações em que é possível fazer referência “ao atributo como um todo em determinadas ocasiões e somente a parte dele em outras” (SILBERSCHATZ; KORTH; SUDARSHAN, 1999, p. 23).
 
-<img src="../../../.gitbook/assets/file.excalidraw (1) (1).svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (1) (1) (1).svg" alt="" class="gitbook-drawing">
 
 Além disso, o atributo composto pode compor uma escala hierárquica, onde as partes que o compõem são semanticamente autônomas (ELMASRI; NAVATHE, 2011, p. 135), isto é, têm sentido próprio por si próprias.  Um exemplo disso é o próprio atributo endereço, da entidade `Estudante`: ora é possível fazer referência ao endereço como um todo, ora pode ser necessário saber apenas o bairro ou CEP.&#x20;
 

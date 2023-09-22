@@ -32,7 +32,7 @@ Os diferentes autores apresentam algumas classificações para os atributos, de 
 
 ## Step 4. Identificar os atributos
 
-<img src="../../../.gitbook/assets/file.excalidraw (4) (1).svg" alt="" class="gitbook-drawing">
+<img src="../../../.gitbook/assets/file.excalidraw (4) (1) (1).svg" alt="" class="gitbook-drawing">
 
 É possível, ainda, classificar os atributos de acordo com diversos critérios. Diferentes autores apresentam alguns tipos de atributos, cuja compreensão é relevante no processo de conversão da modelagem conceitual ER para o modelo lógico relacional.&#x20;
 
