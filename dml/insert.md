@@ -47,7 +47,7 @@ As informações serão inseridas
 
 
 
-## O comando INSERT IGNORE
+## O comando `INSERT IGNORE`
 
 INSERT IGNORE (?), ON DUPLICATE KEYS (?)
 

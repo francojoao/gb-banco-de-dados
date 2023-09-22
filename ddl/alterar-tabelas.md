@@ -12,10 +12,16 @@ Podemos utilizar o `ALTER TABLE` para adicionar ou excluir uma coluna de uma tab
 
 ### ADD COLUMN
 
+
+
 ```sql
-ALTER TABLE Estudante
-ADD COLUMN 
+ALTER TABLE nome_da_tabela
+DROP COLUMN nome_da_coluna;
 ```
+
+<pre class="language-sql"><code class="lang-sql"><strong>ALTER TABLE Estudante
+</strong>ADD COLUMN 
+</code></pre>
 
 ### DROP COLUMN
 
@@ -24,15 +30,39 @@ ALTER TABLE Estudante
 DROP COLUMN 
 ```
 
+##
+
 ## Renomar, redefinir e reordenar colunas
 
 ##
 
-## Chaves primárias
+## Chaves
 
-## Chaves estrangeiras
+### Chaves primárias
+
+<img src="../.gitbook/assets/file.excalidraw (23).svg" alt="" class="gitbook-drawing">
+
+{% code fullWidth="true" %}
+```sql
+ALTER TABLE nome_da_tabela
+ADD PRIMARY KEY (nome_da_coluna);
+```
+{% endcode %}
+
+### Chaves estrangeiras
+
+<img src="../.gitbook/assets/file.excalidraw (22).svg" alt="" class="gitbook-drawing">
+
+{% code fullWidth="true" %}
+```sql
+ALTER TABLE nome_da_tabela
+ADD PRIMARY KEY (nome_da_coluna);
+```
+{% endcode %}
 
 ## Outras restrições
+
+##
 
 ## Referências
 

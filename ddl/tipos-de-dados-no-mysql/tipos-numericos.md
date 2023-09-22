@@ -34,7 +34,7 @@ Recomendo a leitura/participação no tópico.
 
 A propriedade numérica <mark style="color:blue;">`ZEROFILL`</mark>, no MySQL, preenche uma coluna com zeros à esquerda do número cujo dado do tipo inteiro tem um tamanho <mark style="color:blue;">`N`</mark> especificado -- <mark style="color:blue;">`INT(N)`</mark> --, seguindo a palavra reservada <mark style="color:blue;">`INT`</mark>.&#x20;
 
-<img src="../../.gitbook/assets/file.excalidraw (22).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (4).svg" alt="" class="gitbook-drawing">
 
 {% hint style="warning" %}
 <mark style="color:orange;">**Nota:**</mark>
@@ -44,7 +44,7 @@ A partir do MySQL 8.0.17, a propriedade <mark style="color:blue;">`ZEROFILL`</ma
 
 Importante pontuar que o atributo <mark style="color:blue;">`ZEROFILL`</mark>, uma vez utilizado, implica o uso automático de outra propriedade: <mark style="color:blue;">`UNSIGNED`</mark>.
 
-<img src="../../.gitbook/assets/file.excalidraw (18).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (17).svg" alt="" class="gitbook-drawing">
 
 A propriedade <mark style="color:blue;">`UNSIGNED`</mark>, [segundo a documentação](https://dev.mysql.com/doc/refman/8.0/en/numeric-type-attributes.html), "pode ser usada para permitir apenas números não negativos numa coluna ou quando você precisa de um conjunto muito maior de números para uma coluna", uma vez que, como mostra a tabela 1, um inteiro <mark style="color:blue;">`SIGNED`</mark> – propriedade padrão – consegue armazenar números entre -2147483648 e 2147483647, enquanto, com a propriedade  <mark style="color:blue;">`UNSIGNED`</mark>, esse intervalo vai de 0 a 4294967295.
 
@@ -52,11 +52,11 @@ A propriedade <mark style="color:blue;">`UNSIGNED`</mark>, [segundo a documenta�
 
 No MySQL, temos um tipo numérico de ponto fixo, com valores exatos, representado pelo tipo <mark style="color:blue;">`DECIMAL`</mark>, que tem como sinônimos os tipos <mark style="color:blue;">`DEC`</mark> e <mark style="color:blue;">`FIXED`</mark>. Há, ainda, o tipo <mark style="color:blue;">`NUMERIC`</mark>, que no MySQL funciona da mesma maneira que o tipo <mark style="color:blue;">`DECIMAL`</mark>, [de acordo com a documentação](https://dev.mysql.com/doc/refman/8.0/en/fixed-point-types.html), e "esses tipos são usados quanto é importante preservar a precisão exata" do dado a ser armazenado.
 
-<img src="../../.gitbook/assets/file.excalidraw (21).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (7) (1).svg" alt="" class="gitbook-drawing">
 
 Os tipos <mark style="color:blue;">`FLOAT`</mark> e <mark style="color:blue;">`DOUBLE`</mark> correspondem a dados numéricos aproximados, que podem ser de precisão simples ou dupla. Para o tipo de precisão simples, <mark style="color:blue;">`FLOAT`</mark>, [conforme a documentação](https://dev.mysql.com/doc/refman/8.0/en/floating-point-types.html) do MySQL, opcionalmente, é possível definir a precisão **em bits** (<mark style="color:blue;">`p`</mark>) na sequência da palavra-chave: <mark style="color:blue;">`FLOAT(p)`</mark>, seguindo o padrão SQL. Para efeitos práticos, isso permite que uma coluna do tipo <mark style="color:blue;">`FLOAT`</mark> tenha dupla precisão, ou seja, funcione como uma coluna do tipo <mark style="color:blue;">`DOUBLE`</mark>.
 
-<img src="../../.gitbook/assets/file.excalidraw (8).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (1) (2).svg" alt="" class="gitbook-drawing">
 
 ## Referências
 

@@ -16,7 +16,7 @@ Logo no início da descrição do mini-mundo, observa-se que existe uma associa�
 
 > **Estudantes** cursam disciplinas, que são lecionadas por um docente cada uma.
 
-<img src="../../.gitbook/assets/file.excalidraw (25).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (3) (1).svg" alt="" class="gitbook-drawing">
 
 A partir dessa leitura, analisamos: existe associação entre **`Docente`** e **`Estudante`**? Se as disciplinas cursadas pelos discentes são lecionadas por professores, supõe-se que há alguma associação entre estas entidades. Vamos partir para a análise das cardinalidades dos relacionamentos e das restrições de participação antes de alterar o diagrama.
 
@@ -28,15 +28,15 @@ Conforme a descrição do mini-mundo, "**Estudantes** cursam disciplinas" e "Uma
 Não esqueça: marcamos as cardinalidades **do lado oposto** (sentido da seta em <mark style="color:blue;background-color:blue;">**azul**</mark> nas figuras abaixo).
 {% endhint %}
 
-<img src="../../.gitbook/assets/file.excalidraw (17).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (4) (1) (1).svg" alt="" class="gitbook-drawing">
 
 Nessa imagem abaixo, expressamos a associação entre disciplina e estudante: no mínimo, uma disciplina pode ser cursada por _nenhum_ estudante (cardinalidade mínima _0_) e, no máximo, _vários_ estudantes (cardinalidade máxima _N_).
 
-<img src="../../.gitbook/assets/file.excalidraw (15).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (5) (1).svg" alt="" class="gitbook-drawing">
 
 Assim, as cardinalidades ficam conforme a figura a seguir:
 
-<img src="../../.gitbook/assets/file.excalidraw (1).svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw (3) (2).svg" alt="" class="gitbook-drawing">
 
 ## Referências
 
